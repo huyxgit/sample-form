@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const DetailsContainer = styled.div`
+const InfoContainer = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -22,17 +22,17 @@ const InnerContainer = styled.div`
 `;
 
 const Header = styled.h1`
-    margin: 0;
-    color: #0065d8;
-    font-weight: 700;
     font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+    color: #0065d8;
 `;
 
 const SubHeader = styled.h3`
-    margin: 10px 0;
-    color: #000;
-    font-weight: 700;
     font-size: 24px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #000;
 `;
 
 const Text = styled.p`
@@ -42,22 +42,22 @@ const Text = styled.p`
 `;
 
 const FormGroup = styled.div`
-    display: flex;
     position: relative;
-    height: 52px;
+    display: flex;
     margin-top: 1em;
+    height: 52px;
 `;
 
-const EmailInput = styled.input`
-    outline: none;
+const Input = styled.input`
     border: 1px solid #d9d9d9;
-    background-color: #fff;
+    outline: none;
     padding-left: 1em;
-    border-radius: 6px;
+    background-color: #fff;
     font-size: 20px;
-    color: #000;
+    border-radius: 6px;
     height: 100;
-    padding-right: 5em;
+    color: #000;
+    padding-right: 4em;
 
     &::placeholder {
         color: #d9d9d9;
@@ -86,15 +86,15 @@ const SubscribeButton = styled.button`
 `;
 
 export function Details(props) {
-    return <DetailsContainer>
+    return <InfoContainer>
         <InnerContainer>
             <Header>Hey there!</Header>
             <SubHeader>Subscribe now for weekly content..</SubHeader>
             <Text>You will never miss anything from us!</Text>
             <FormGroup>
-                <EmailInput type="text" placeholder="abc@email.com" />
+                <Input type="text" placeholder="abc@email.com" />
                 <SubscribeButton>Subscribe</SubscribeButton>
             </FormGroup>
         </InnerContainer>
-    </DetailsContainer>
+    </InfoContainer>
 }

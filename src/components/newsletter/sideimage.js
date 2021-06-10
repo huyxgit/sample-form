@@ -14,6 +14,7 @@ const SideImageContainer = styled.div`
     clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-sizing: border-box;
 `;
 
 const Image = styled.div`
