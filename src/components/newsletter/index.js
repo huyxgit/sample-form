@@ -23,7 +23,6 @@ const Footer = styled.div`
         text-decoration: none;
         color: white;
     }
-
 `;
 
 export default function Newsletter(props) {
@@ -32,8 +31,6 @@ export default function Newsletter(props) {
             <Details />
             <SideImage />
         </MainContainer>
-
         <Footer><a href='https://www.github.com/huynguyez'>Huy Nguyen on ReactJS</a></Footer>
-
     </div>
 }
