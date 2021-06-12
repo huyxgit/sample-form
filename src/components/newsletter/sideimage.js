@@ -11,15 +11,15 @@ const SideImageContainer = styled.div`
     position: relative;
     background: rgb(148, 147, 247);
     background: linear-gradient(217deg, rgba(148, 147, 247, 1) 0%, rgba(218, 194, 221, 1) 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
+    clip-path: polygon(9% 0, 100% 0, 100% 100%, 0% 100%);
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-sizing: border-box;
 `;
 
 const Image = styled.div`
     width: auto;
-    height: 30em;
+    height: 22em;
     img {
         width: auto;
         height: 100%;

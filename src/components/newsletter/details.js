@@ -35,12 +35,6 @@ const SubHeader = styled.h3`
     color: #000;
 `;
 
-const Text = styled.p`
-    color: #000;
-    font-weight: 500;
-    font-size: 20px;
-`;
-
 const FormGroup = styled.div`
     position: relative;
     display: flex;
@@ -88,9 +82,8 @@ const SubscribeButton = styled.button`
 export function Details(props) {
     return <InfoContainer>
         <InnerContainer>
-            <Header>Hey there!</Header>
-            <SubHeader>Subscribe now for weekly content..</SubHeader>
-            <Text>You will never miss anything from us!</Text>
+            <Header>Follow Us!</Header>
+            <SubHeader>Subscribe now for latest update.</SubHeader>
             <FormGroup>
                 <Input type="text" placeholder="abc@email.com" />
                 <SubscribeButton>Subscribe</SubscribeButton>
