@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import './App.css';
 import Newletter from "./components/newsletter"
 
 const AppContainer = styled.div`
